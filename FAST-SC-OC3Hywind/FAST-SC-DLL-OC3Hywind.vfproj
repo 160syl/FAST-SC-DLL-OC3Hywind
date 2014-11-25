@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{5490623D-5D0B-4F54-A3A9-C4610F93B121}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" LocalVariableStorage="localStorageSave" ByteRECL="true" LocalSavedScalarsZero="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" OutputFile="$(OutDir)\$(ProjectName)_BladedDLLInterface.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" LocalVariableStorage="localStorageSave" ByteRECL="true" LocalSavedScalarsZero="true"/>
+				<Tool Name="VFLinkerTool" OutputFile="$(OutDir)\$(ProjectName)_BladedDLLInterface.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files">
+		<Filter Name="AeroDyn">
+		<File RelativePath="..\Source Files\AeroDyn\AeroDyn.f90"/>
+		<File RelativePath="..\Source Files\AeroDyn\AeroMods.f90"/>
+		<File RelativePath="..\Source Files\AeroDyn\AeroSubs.f90"/>
+		<File RelativePath="..\Source Files\AeroDyn\GenSubs.f90"/>
+		<File RelativePath="..\Source Files\AeroDyn\SharedTypes.f90"/></Filter>
+		<Filter Name="HydroDyn">
+		<File RelativePath="..\Source Files\HydroDyn\FFTMod.f90"/>
+		<File RelativePath="..\Source Files\HydroDyn\fftpack.f"/>
+		<File RelativePath="..\Source Files\HydroDyn\HydroCalc.f90"/></Filter>
+		<Filter Name="InflowWind">
+		<File RelativePath="..\Source Files\InflowWind\CTWind.f90"/>
+		<File RelativePath="..\Source Files\InflowWind\FDWind.f90"/>
+		<File RelativePath="..\Source Files\InflowWind\FFWind.f90"/>
+		<File RelativePath="..\Source Files\InflowWind\HAWCWind.f90"/>
+		<File RelativePath="..\Source Files\InflowWind\HHWind.f90"/>
+		<File RelativePath="..\Source Files\InflowWind\InflowWindMod.f90"/>
+		<File RelativePath="..\Source Files\InflowWind\SharedInflowDefs.f90"/>
+		<File RelativePath="..\Source Files\InflowWind\UserWind.f90"/></Filter>
+		<Filter Name="NWTC_Library">
+		<File RelativePath="..\Source Files\NWTC_Library\NWTC_Aero.f90"/>
+		<File RelativePath="..\Source Files\NWTC_Library\NWTC_IO.f90"/>
+		<File RelativePath="..\Source Files\NWTC_Library\NWTC_Library.f90"/>
+		<File RelativePath="..\Source Files\NWTC_Library\NWTC_Num.f90"/>
+		<File RelativePath="..\Source Files\NWTC_Library\SingPrec.f90"/>
+		<File RelativePath="..\Source Files\NWTC_Library\SysIVF.f90"/></Filter>
+		<File RelativePath="..\Source Files\AeroCalc.f90"/>
+		<File RelativePath="..\Source Files\BladedDLLInterface.f90"/>
+		<File RelativePath="..\Source Files\FAST.f90"/>
+		<File RelativePath="..\Source Files\FAST2ADAMS.f90"/>
+		<File RelativePath="..\Source Files\FAST_IO.f90"/>
+		<File RelativePath="..\Source Files\FAST_Lin.f90"/>
+		<File RelativePath="..\Source Files\FAST_Mods.f90"/>
+		<File RelativePath="..\Source Files\FAST_Prog.f90"/>
+		<File RelativePath="..\Source Files\Noise.f90"/>
+		<File RelativePath="..\Source Files\SetVersion.f90"/>
+		<File RelativePath="..\Source Files\UserSubs_forBladedDLL.f90"/>
+		<File RelativePath="..\Source Files\UserVSCont_KP_forBladedDLL.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
